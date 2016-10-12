@@ -77,7 +77,8 @@ header {
 
 .white-box {
   background-color: #ffffff;
-  margin: 1em;
+  margin: auto;
+  width: 50%;
 }
 
 .address-box {
@@ -93,6 +94,14 @@ footer {
   padding: 30px 1em;
   font-size: 24px;
   color: #40666d;
+  text-align: center;
+}
+
+.small {
+  font-size: 16px;
+  font-weight: 500;
+  color: #858585;
+  text-align: center;
 }
 
 .privacy {
