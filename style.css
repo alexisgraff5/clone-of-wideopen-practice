@@ -13,6 +13,25 @@ header {
   letter-spacing: 1px;
 }
 
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  color: #6a787c;
+  text-align: center;
+}
+
+.title-special {
+  color: #bdd436;
+  font-weight: bold;
+}
+
+#blue-title {
+  color: #40666d;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
 .masthead {
   padding-top: 80px;
   margin: 0 auto;
@@ -77,7 +96,7 @@ header {
 
 .white-box {
   background-color: #ffffff;
-  margin: auto;
+  margin: 0 auto;
   width: 50%;
 }
 
@@ -90,18 +109,24 @@ footer {
 }
 
 .white-box-text {
-  margin: 0 0 15px 0;
-  padding: 30px 1em;
   font-size: 24px;
   color: #40666d;
   text-align: center;
+  margin-bottom: 0;
+  padding: 15px 15px 0 15px
+}
+
+#first-white {
+  padding-bottom: 15px;
 }
 
 .small {
   font-size: 16px;
+  padding: 0 15px 15px 15px;
   font-weight: 500;
   color: #858585;
   text-align: center;
+  margin-top: 0;
 }
 
 .privacy {
