@@ -2,6 +2,8 @@
 body {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #97a2a7;
 }
 
 header {
@@ -11,6 +13,11 @@ header {
   font-family: 'Oswald', sans-serif;
   color: #ffffff;
   letter-spacing: 1px;
+}
+
+footer {
+  background-color: #F6F6F6;
+  text-align: left;
 }
 
 h2 {
@@ -23,7 +30,30 @@ h2 {
 }
 
 img {
+  vertical-align: middle;
   border: 0;
+}
+
+.green-text:hover {
+  color: #97a2a7;
+  text-decoration: none;
+}
+
+.green-text {
+  color: #bdd436;
+  text-decoration: none;
+  text-align: center;
+}
+
+.green-size {
+  font-size: 14px;
+}
+
+.how {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .title-special {
@@ -107,18 +137,36 @@ img {
 
 .address-box {
   background-color: rgba(19, 32, 35, 0.8);
+  width: 70%;
+  padding: 1em;
+  margin: 2em auto;
+}
+
+.location {
+  display: flex;
+  width: 100%;
+}
+
+.address {
+  text-align: left;
+  padding: 0 15px 15px 15px;
+  font-family: 'Lato', sans-serif;
 }
 
 .wilmington {
   background-image: url("img/wilmington.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 30px 0;
+  width:100%;
 }
 
 .asheville {
   background-image: url("img/asheville.jpg");
-}
-
-footer {
-  background-color: #F6F6F6;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 0;
+  width: 100%;
 }
 
 .white-box-text {
@@ -147,6 +195,12 @@ footer {
   letter-spacing: 1px;
   font-size: 10px;
   text-decoration: none;
+}
+
+#address-head {
+  color: #bdd537;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
 }
 
 .copyright {
