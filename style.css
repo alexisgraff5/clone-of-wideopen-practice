@@ -19,6 +19,11 @@ h2 {
   font-family: 'Oswald', sans-serif;
   color: #6a787c;
   text-align: center;
+  margin: 0 auto;
+}
+
+img {
+  border: 0;
 }
 
 .title-special {
@@ -102,6 +107,14 @@ h2 {
 
 .address-box {
   background-color: rgba(19, 32, 35, 0.8);
+}
+
+.wilmington {
+  background-image: url("img/wilmington.jpg");
+}
+
+.asheville {
+  background-image: url("img/asheville.jpg");
 }
 
 footer {
